@@ -7,7 +7,7 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   build: { outDir: "./dist" },
-  base: "./",
+  base: "/react-shapebound/",
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] }),
