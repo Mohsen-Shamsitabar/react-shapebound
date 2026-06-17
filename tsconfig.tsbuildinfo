@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./vite.config.ts"],"version":"6.0.3"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/classes/player.ts","./src/classes/playercontainer.ts","./src/components/playercontainerelement.tsx","./src/components/playerelement.tsx","./src/constants/keybinds.ts","./src/hooks/usekeyboard.ts","./src/utilities/clamp.ts","./src/utilities/generate-box-polygon.ts","./src/views/gamescene.tsx","./vite.config.ts"],"version":"6.0.3"}
