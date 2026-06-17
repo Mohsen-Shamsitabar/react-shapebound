@@ -59,13 +59,16 @@
     width: 100%;
   }
   #root {
-    @apply isolate w-screen;
+    @apply isolate h-screen w-screen;
     width: 100%;
   }
   body {
     @apply bg-background text-foreground relative;
     scrollbar-gutter: stable; /* Reserves space for scrollbar */
     width: 100%;
+  }
+  * {
+    @apply box-border;
   }
 }
 
