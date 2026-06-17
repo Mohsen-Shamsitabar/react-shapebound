@@ -1,3 +1,4 @@
+import GameScene from "@/views/GameScene";
 import { BrowserRouter, Route, Routes } from "react-router";
 
 const App = () => {
@@ -6,7 +7,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route
-            element={<main>HOME</main>}
+            element={<GameScene />}
             index
           />
 
