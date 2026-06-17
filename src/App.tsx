@@ -1,10 +1,10 @@
 import GameScene from "@/views/GameScene";
-import { BrowserRouter, Route, Routes } from "react-router";
+import { HashRouter, Route, Routes } from "react-router";
 
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route
             element={<GameScene />}
@@ -16,7 +16,7 @@ const App = () => {
             element={<main>404</main>}
           />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
